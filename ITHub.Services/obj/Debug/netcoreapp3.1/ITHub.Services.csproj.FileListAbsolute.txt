@@ -1,0 +1,13 @@
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Services\bin\Debug\netcoreapp3.1\ITHub.Services.deps.json
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Services\bin\Debug\netcoreapp3.1\ITHub.Services.dll
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Services\bin\Debug\netcoreapp3.1\ITHub.Services.pdb
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Services\obj\Debug\netcoreapp3.1\ITHub.Services.csprojAssemblyReference.cache
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Services\obj\Debug\netcoreapp3.1\ITHub.Services.AssemblyInfoInputs.cache
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Services\obj\Debug\netcoreapp3.1\ITHub.Services.AssemblyInfo.cs
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Services\obj\Debug\netcoreapp3.1\ITHub.Services.dll
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Services\obj\Debug\netcoreapp3.1\ITHub.Services.pdb
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Services\bin\Debug\netcoreapp3.1\ITHub.Data.dll
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Services\bin\Debug\netcoreapp3.1\ITHub.Data.Models.dll
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Services\bin\Debug\netcoreapp3.1\ITHub.Data.Models.pdb
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Services\bin\Debug\netcoreapp3.1\ITHub.Data.pdb
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Services\obj\Debug\netcoreapp3.1\ITHub.Services.csproj.CopyComplete

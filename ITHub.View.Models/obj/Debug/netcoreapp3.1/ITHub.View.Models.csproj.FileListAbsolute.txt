@@ -1,0 +1,8 @@
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.View.Models\bin\Debug\netcoreapp3.1\ITHub.View.Models.deps.json
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.View.Models\bin\Debug\netcoreapp3.1\ITHub.View.Models.dll
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.View.Models\bin\Debug\netcoreapp3.1\ITHub.View.Models.pdb
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.View.Models\obj\Debug\netcoreapp3.1\ITHub.View.Models.csprojAssemblyReference.cache
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.View.Models\obj\Debug\netcoreapp3.1\ITHub.View.Models.AssemblyInfoInputs.cache
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.View.Models\obj\Debug\netcoreapp3.1\ITHub.View.Models.AssemblyInfo.cs
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.View.Models\obj\Debug\netcoreapp3.1\ITHub.View.Models.dll
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.View.Models\obj\Debug\netcoreapp3.1\ITHub.View.Models.pdb

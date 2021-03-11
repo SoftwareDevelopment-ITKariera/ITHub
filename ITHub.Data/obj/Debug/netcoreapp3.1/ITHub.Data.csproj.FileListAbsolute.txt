@@ -1,0 +1,13 @@
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Data\bin\Debug\netcoreapp3.1\ITHub.Data.deps.json
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Data\bin\Debug\netcoreapp3.1\ITHub.Data.dll
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Data\obj\Debug\netcoreapp3.1\ITHub.Data.csprojAssemblyReference.cache
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Data\obj\Debug\netcoreapp3.1\ITHub.Data.AssemblyInfoInputs.cache
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Data\obj\Debug\netcoreapp3.1\ITHub.Data.AssemblyInfo.cs
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Data\bin\Debug\netcoreapp3.1\ITHub.Data.pdb
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Data\bin\Debug\netcoreapp3.1\ITHub.Data.Models.dll
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Data\bin\Debug\netcoreapp3.1\ITHub.Data.Models.pdb
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Data\obj\Debug\netcoreapp3.1\ITHub.Data.csproj.CopyComplete
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Data\obj\Debug\netcoreapp3.1\ITHub.Data.dll
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Data\obj\Debug\netcoreapp3.1\ITHub.Data.pdb
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Data\bin\Debug\netcoreapp3.1\ITHub.Data.runtimeconfig.json
+D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Data\bin\Debug\netcoreapp3.1\ITHub.Data.runtimeconfig.dev.json
