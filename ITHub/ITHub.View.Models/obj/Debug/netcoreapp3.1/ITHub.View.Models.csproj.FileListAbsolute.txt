@@ -6,3 +6,12 @@ D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.View.Models\obj\Debug\
 D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.View.Models\obj\Debug\netcoreapp3.1\ITHub.View.Models.AssemblyInfo.cs
 D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.View.Models\obj\Debug\netcoreapp3.1\ITHub.View.Models.dll
 D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.View.Models\obj\Debug\netcoreapp3.1\ITHub.View.Models.pdb
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.View.Models\bin\Debug\netcoreapp3.1\ITHub.View.Models.deps.json
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.View.Models\bin\Debug\netcoreapp3.1\ITHub.View.Models.dll
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.View.Models\bin\Debug\netcoreapp3.1\ITHub.View.Models.pdb
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.View.Models\obj\Debug\netcoreapp3.1\ITHub.View.Models.csprojAssemblyReference.cache
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.View.Models\obj\Debug\netcoreapp3.1\ITHub.View.Models.AssemblyInfoInputs.cache
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.View.Models\obj\Debug\netcoreapp3.1\ITHub.View.Models.AssemblyInfo.cs
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.View.Models\obj\Debug\netcoreapp3.1\ITHub.View.Models.csproj.CoreCompileInputs.cache
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.View.Models\obj\Debug\netcoreapp3.1\ITHub.View.Models.dll
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.View.Models\obj\Debug\netcoreapp3.1\ITHub.View.Models.pdb

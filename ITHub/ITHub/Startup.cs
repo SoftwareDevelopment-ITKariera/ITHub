@@ -30,6 +30,7 @@ namespace ITHub
             services.AddControllersWithViews();
             services.AddDbContext<ITHubDBContext>(options => options.UseSqlServer(ConfigurationData.ConectionString));
             services.AddScoped<ICategoriesService, CategoriesService>();
+            services.AddScoped<ISongsService, SongsService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -11,3 +11,18 @@ D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Data\obj\Debug\netcore
 D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Data\obj\Debug\netcoreapp3.1\ITHub.Data.pdb
 D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Data\bin\Debug\netcoreapp3.1\ITHub.Data.runtimeconfig.json
 D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Data\bin\Debug\netcoreapp3.1\ITHub.Data.runtimeconfig.dev.json
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Data\bin\Debug\netcoreapp3.1\ITHub.Data.deps.json
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Data\bin\Debug\netcoreapp3.1\ITHub.Data.runtimeconfig.json
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Data\bin\Debug\netcoreapp3.1\ITHub.Data.runtimeconfig.dev.json
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Data\bin\Debug\netcoreapp3.1\ITHub.Data.dll
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Data\bin\Debug\netcoreapp3.1\ITHub.Data.pdb
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Data\bin\Debug\netcoreapp3.1\ITHub.Data.Models.dll
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Data\bin\Debug\netcoreapp3.1\ITHub.Data.Models.pdb
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Data\obj\Debug\netcoreapp3.1\ITHub.Data.csprojAssemblyReference.cache
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Data\obj\Debug\netcoreapp3.1\ITHub.Data.AssemblyInfoInputs.cache
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Data\obj\Debug\netcoreapp3.1\ITHub.Data.AssemblyInfo.cs
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Data\obj\Debug\netcoreapp3.1\ITHub.Data.csproj.CoreCompileInputs.cache
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Data\obj\Debug\netcoreapp3.1\ITHub.Data.csproj.CopyComplete
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Data\obj\Debug\netcoreapp3.1\ITHub.Data.dll
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Data\obj\Debug\netcoreapp3.1\ITHub.Data.pdb
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Data\obj\Debug\netcoreapp3.1\ITHub.Data.genruntimeconfig.cache

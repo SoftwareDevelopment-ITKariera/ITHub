@@ -11,3 +11,17 @@ D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Services\bin\Debug\net
 D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Services\bin\Debug\netcoreapp3.1\ITHub.Data.Models.pdb
 D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Services\bin\Debug\netcoreapp3.1\ITHub.Data.pdb
 D:\DOCUMENTS\School\IT kariera\modul7\Zadachi\ITHub\ITHub.Services\obj\Debug\netcoreapp3.1\ITHub.Services.csproj.CopyComplete
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Services\obj\Debug\netcoreapp3.1\ITHub.Services.csprojAssemblyReference.cache
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Services\obj\Debug\netcoreapp3.1\ITHub.Services.AssemblyInfoInputs.cache
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Services\obj\Debug\netcoreapp3.1\ITHub.Services.AssemblyInfo.cs
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Services\obj\Debug\netcoreapp3.1\ITHub.Services.csproj.CoreCompileInputs.cache
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Services\obj\Debug\netcoreapp3.1\ITHub.Services.dll
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Services\obj\Debug\netcoreapp3.1\ITHub.Services.pdb
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Services\bin\Debug\netcoreapp3.1\ITHub.Services.deps.json
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Services\bin\Debug\netcoreapp3.1\ITHub.Services.dll
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Services\bin\Debug\netcoreapp3.1\ITHub.Services.pdb
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Services\bin\Debug\netcoreapp3.1\ITHub.Data.dll
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Services\bin\Debug\netcoreapp3.1\ITHub.Data.Models.dll
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Services\bin\Debug\netcoreapp3.1\ITHub.Data.Models.pdb
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Services\bin\Debug\netcoreapp3.1\ITHub.Data.pdb
+C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Services\obj\Debug\netcoreapp3.1\ITHub.Services.csproj.CopyComplete

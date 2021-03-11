@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DOCUMENTS\\School\\IT kariera\\modul7\\Zadachi\\ITHub\\ITHub.View.Models\\ITHub.View.Models.csproj": {}
+    "C:\\Users\\sheydi\\Desktop\\IT_Kariera\\ITHub_Repository\\ITHub\\ITHub\\ITHub.View.Models\\ITHub.View.Models.csproj": {}
   },
   "projects": {
-    "D:\\DOCUMENTS\\School\\IT kariera\\modul7\\Zadachi\\ITHub\\ITHub.View.Models\\ITHub.View.Models.csproj": {
+    "C:\\Users\\sheydi\\Desktop\\IT_Kariera\\ITHub_Repository\\ITHub\\ITHub\\ITHub.View.Models\\ITHub.View.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DOCUMENTS\\School\\IT kariera\\modul7\\Zadachi\\ITHub\\ITHub.View.Models\\ITHub.View.Models.csproj",
+        "projectUniqueName": "C:\\Users\\sheydi\\Desktop\\IT_Kariera\\ITHub_Repository\\ITHub\\ITHub\\ITHub.View.Models\\ITHub.View.Models.csproj",
         "projectName": "ITHub.View.Models",
-        "projectPath": "D:\\DOCUMENTS\\School\\IT kariera\\modul7\\Zadachi\\ITHub\\ITHub.View.Models\\ITHub.View.Models.csproj",
-        "packagesPath": "C:\\Users\\MISHELL\\.nuget\\packages\\",
-        "outputPath": "D:\\DOCUMENTS\\School\\IT kariera\\modul7\\Zadachi\\ITHub\\ITHub.View.Models\\obj\\",
+        "projectPath": "C:\\Users\\sheydi\\Desktop\\IT_Kariera\\ITHub_Repository\\ITHub\\ITHub\\ITHub.View.Models\\ITHub.View.Models.csproj",
+        "packagesPath": "C:\\Users\\sheydi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sheydi\\Desktop\\IT_Kariera\\ITHub_Repository\\ITHub\\ITHub\\ITHub.View.Models\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\MISHELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\sheydi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -30,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -41,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -56,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
