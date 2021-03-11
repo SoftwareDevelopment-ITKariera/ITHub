@@ -2212,7 +2212,8 @@
       "ITHub.Services/1.0.0": {
         "dependencies": {
           "ITHub.Data": "1.0.0",
-          "ITHub.Data.Models": "1.0.0"
+          "ITHub.Data.Models": "1.0.0",
+          "ITHub.View.Models": "1.0.0"
         },
         "runtime": {
           "ITHub.Services.dll": {}

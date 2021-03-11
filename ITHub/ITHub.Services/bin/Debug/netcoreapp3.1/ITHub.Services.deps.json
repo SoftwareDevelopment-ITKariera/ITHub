@@ -9,7 +9,8 @@
       "ITHub.Services/1.0.0": {
         "dependencies": {
           "ITHub.Data": "1.0.0",
-          "ITHub.Data.Models": "1.0.0"
+          "ITHub.Data.Models": "1.0.0",
+          "ITHub.View.Models": "1.0.0"
         },
         "runtime": {
           "ITHub.Services.dll": {}
@@ -1068,6 +1069,11 @@
         "runtime": {
           "ITHub.Data.Models.dll": {}
         }
+      },
+      "ITHub.View.Models/1.0.0": {
+        "runtime": {
+          "ITHub.View.Models.dll": {}
+        }
       }
     }
   },
@@ -1741,6 +1747,11 @@
       "sha512": ""
     },
     "ITHub.Data.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ITHub.View.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

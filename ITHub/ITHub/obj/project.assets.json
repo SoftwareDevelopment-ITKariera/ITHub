@@ -2626,7 +2626,8 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "ITHub.Data": "1.0.0",
-          "ITHub.Data.Models": "1.0.0"
+          "ITHub.Data.Models": "1.0.0",
+          "ITHub.View.Models": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ITHub.Services.dll": {}
@@ -8634,20 +8635,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sheydi\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sheydi\\Desktop\\IT_Kariera\\ITHub_Repository\\ITHub\\ITHub\\ITHub\\ITHub.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\ITHub\\ITHub\\ITHub.csproj",
       "projectName": "ITHub",
-      "projectPath": "C:\\Users\\sheydi\\Desktop\\IT_Kariera\\ITHub_Repository\\ITHub\\ITHub\\ITHub\\ITHub.csproj",
-      "packagesPath": "C:\\Users\\sheydi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sheydi\\Desktop\\IT_Kariera\\ITHub_Repository\\ITHub\\ITHub\\ITHub\\obj\\",
+      "projectPath": "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\ITHub\\ITHub\\ITHub.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\ITHub\\ITHub\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\sheydi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -8658,16 +8664,15 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\sheydi\\Desktop\\IT_Kariera\\ITHub_Repository\\ITHub\\ITHub\\ITHub.Data\\ITHub.Data.csproj": {
-              "projectPath": "C:\\Users\\sheydi\\Desktop\\IT_Kariera\\ITHub_Repository\\ITHub\\ITHub\\ITHub.Data\\ITHub.Data.csproj"
+            "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\ITHub\\ITHub.Data\\ITHub.Data.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\ITHub\\ITHub.Data\\ITHub.Data.csproj"
             },
-            "C:\\Users\\sheydi\\Desktop\\IT_Kariera\\ITHub_Repository\\ITHub\\ITHub\\ITHub.Services\\ITHub.Services.csproj": {
-              "projectPath": "C:\\Users\\sheydi\\Desktop\\IT_Kariera\\ITHub_Repository\\ITHub\\ITHub\\ITHub.Services\\ITHub.Services.csproj"
+            "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\ITHub\\ITHub.Services\\ITHub.Services.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\ITHub\\ITHub.Services\\ITHub.Services.csproj"
             },
-            "C:\\Users\\sheydi\\Desktop\\IT_Kariera\\ITHub_Repository\\ITHub\\ITHub\\ITHub.View.Models\\ITHub.View.Models.csproj": {
-              "projectPath": "C:\\Users\\sheydi\\Desktop\\IT_Kariera\\ITHub_Repository\\ITHub\\ITHub\\ITHub.View.Models\\ITHub.View.Models.csproj"
+            "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\ITHub\\ITHub.View.Models\\ITHub.View.Models.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\ITHub\\ITHub.View.Models\\ITHub.View.Models.csproj"
             }
           }
         }
@@ -8680,7 +8685,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -8715,7 +8719,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -7,6 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ITHub.Data.Models\ITHub.Data.Models.csproj" />
     <ProjectReference Include="..\ITHub.Data\ITHub.Data.csproj" />
+    <ProjectReference Include="..\ITHub.View.Models\ITHub.View.Models.csproj" />
   </ItemGroup>
 
 </Project>

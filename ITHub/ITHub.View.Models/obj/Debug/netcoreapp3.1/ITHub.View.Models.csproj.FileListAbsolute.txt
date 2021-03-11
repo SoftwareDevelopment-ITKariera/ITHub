@@ -15,3 +15,12 @@ C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.View.Model
 C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.View.Models\obj\Debug\netcoreapp3.1\ITHub.View.Models.csproj.CoreCompileInputs.cache
 C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.View.Models\obj\Debug\netcoreapp3.1\ITHub.View.Models.dll
 C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.View.Models\obj\Debug\netcoreapp3.1\ITHub.View.Models.pdb
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\ITHub\ITHub.View.Models\bin\Debug\netcoreapp3.1\ITHub.View.Models.deps.json
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\ITHub\ITHub.View.Models\bin\Debug\netcoreapp3.1\ITHub.View.Models.dll
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\ITHub\ITHub.View.Models\bin\Debug\netcoreapp3.1\ITHub.View.Models.pdb
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\ITHub\ITHub.View.Models\obj\Debug\netcoreapp3.1\ITHub.View.Models.csprojAssemblyReference.cache
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\ITHub\ITHub.View.Models\obj\Debug\netcoreapp3.1\ITHub.View.Models.AssemblyInfoInputs.cache
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\ITHub\ITHub.View.Models\obj\Debug\netcoreapp3.1\ITHub.View.Models.AssemblyInfo.cs
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\ITHub\ITHub.View.Models\obj\Debug\netcoreapp3.1\ITHub.View.Models.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\ITHub\ITHub.View.Models\obj\Debug\netcoreapp3.1\ITHub.View.Models.dll
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\ITHub\ITHub.View.Models\obj\Debug\netcoreapp3.1\ITHub.View.Models.pdb

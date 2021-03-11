@@ -25,3 +25,19 @@ C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Services\b
 C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Services\bin\Debug\netcoreapp3.1\ITHub.Data.Models.pdb
 C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Services\bin\Debug\netcoreapp3.1\ITHub.Data.pdb
 C:\Users\sheydi\Desktop\IT_Kariera\ITHub_Repository\ITHub\ITHub\ITHub.Services\obj\Debug\netcoreapp3.1\ITHub.Services.csproj.CopyComplete
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\ITHub\ITHub.Services\bin\Debug\netcoreapp3.1\ITHub.Services.deps.json
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\ITHub\ITHub.Services\bin\Debug\netcoreapp3.1\ITHub.Services.dll
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\ITHub\ITHub.Services\bin\Debug\netcoreapp3.1\ITHub.Services.pdb
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\ITHub\ITHub.Services\bin\Debug\netcoreapp3.1\ITHub.Data.dll
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\ITHub\ITHub.Services\bin\Debug\netcoreapp3.1\ITHub.Data.Models.dll
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\ITHub\ITHub.Services\bin\Debug\netcoreapp3.1\ITHub.Data.Models.pdb
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\ITHub\ITHub.Services\bin\Debug\netcoreapp3.1\ITHub.Data.pdb
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\ITHub\ITHub.Services\obj\Debug\netcoreapp3.1\ITHub.Services.csprojAssemblyReference.cache
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\ITHub\ITHub.Services\obj\Debug\netcoreapp3.1\ITHub.Services.AssemblyInfoInputs.cache
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\ITHub\ITHub.Services\obj\Debug\netcoreapp3.1\ITHub.Services.AssemblyInfo.cs
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\ITHub\ITHub.Services\obj\Debug\netcoreapp3.1\ITHub.Services.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\ITHub\ITHub.Services\obj\Debug\netcoreapp3.1\ITHub.Services.csproj.CopyComplete
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\ITHub\ITHub.Services\obj\Debug\netcoreapp3.1\ITHub.Services.dll
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\ITHub\ITHub.Services\obj\Debug\netcoreapp3.1\ITHub.Services.pdb
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\ITHub\ITHub.Services\bin\Debug\netcoreapp3.1\ITHub.View.Models.dll
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\ITHub\ITHub.Services\bin\Debug\netcoreapp3.1\ITHub.View.Models.pdb
