@@ -1,49 +1,44 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.Text;
 
-namespace DreamJourney.Data.Models
+namespace DreamJourney.ViewModels.User
 {
-    public class User:BaseModel
+    public class RegisterViewModel:BaseViewModel
     {
-        public User()
-        {
-            this.Trips = new List<Trip>();
-            this.TripApplications = new List<TripApplication>();
-        }
-
-        //[Required]
-        //[Key]
-        //public int Id { get; set; }
-
         [Required]
         [MaxLength(40)]
+        [MinLength(3, ErrorMessage = "Minimum length of '3'")]
         public string Username { get; set; }
 
         [Required]
         [MaxLength(40)]
-        [MinLength(6)]
+        [MinLength(6, ErrorMessage = "Minimum length of '6'")]
         public string Password { get; set; }
 
         [Required]
         [MaxLength(40)]
+        [MinLength(3, ErrorMessage = "Minimum length of '3'")]
+        [DisplayName("First Name")]
         public string FirstName { get; set; }
 
         [Required]
         [MaxLength(40)]
+        [MinLength(3, ErrorMessage = "Minimum length of '3'")]
+        [DisplayName("Last Name")]
         public string LastName { get; set; }
 
         [Required]
         [MaxLength(40)]
+        [MinLength(3, ErrorMessage = "Minimum length of '3'")]
         public string Email { get; set; }
 
         [Required]
         public bool Role { get; set; }
 
+        [DisplayName("Image URL")]
         public string ImageUrl { get; set; }
-
-        public ICollection<Trip> Trips { get; set; }
-
-        public ICollection<TripApplication> TripApplications { get; set; }
     }
 }

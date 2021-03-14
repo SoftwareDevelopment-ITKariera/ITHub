@@ -6,16 +6,16 @@ using System.Text;
 
 namespace DreamJourney.Data.Models
 {
-    public class Trip
+    public class Trip:BaseModel
     {
         public Trip()
         {
             this.TripApplications = new List<TripApplication>();
         }
 
-        [Required]
-        [Key]
-        public int Id { get; set; }
+        //[Required]
+        //[Key]
+        //public int Id { get; set; }
 
         [Required]
         [MaxLength(100)]

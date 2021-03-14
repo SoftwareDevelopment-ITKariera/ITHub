@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DreamJourney.Data;
+using DreamJourney.Services;
+using DreamJourney.Services.Contracts;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,6 +29,9 @@ namespace DreamJourney
         {
             services.AddControllersWithViews();
             services.AddDbContext<DreamJourneyDbContext>(options => options.UseSqlServer(ConfigurationData.ConnectionString));
+            services.AddScoped<IUsersService, UsersService>();
+            services.AddScoped<ITripsService, TripsService>();
+            services.AddScoped<ITripApplicationsService, TripApplicationsService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

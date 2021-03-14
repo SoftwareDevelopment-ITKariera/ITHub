@@ -5819,11 +5819,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\DreamJourney\\DreamJourney.Data\\DreamJourney.Data.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\DreamJourney\\DreamJourney.Data\\DreamJourney.Data.csproj",
       "projectName": "DreamJourney.Data",
-      "projectPath": "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\DreamJourney\\DreamJourney.Data\\DreamJourney.Data.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\DreamJourney\\DreamJourney.Data\\DreamJourney.Data.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\DreamJourney\\DreamJourney.Data\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\DreamJourney\\DreamJourney.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -5843,8 +5843,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\DreamJourney\\DreamJourney.Data.Models\\DreamJourney.Data.Models.csproj": {
-              "projectPath": "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\DreamJourney\\DreamJourney.Data.Models\\DreamJourney.Data.Models.csproj"
+            "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\DreamJourney\\DreamJourney.Data.Models\\DreamJourney.Data.Models.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\DreamJourney\\DreamJourney.Data.Models\\DreamJourney.Data.Models.csproj"
             }
           }
         }

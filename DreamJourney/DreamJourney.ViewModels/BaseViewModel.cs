@@ -2,7 +2,8 @@
 
 namespace DreamJourney.ViewModels
 {
-    public class Class1
+    public class BaseViewModel
     {
+        public int Id { get; set; }
     }
 }

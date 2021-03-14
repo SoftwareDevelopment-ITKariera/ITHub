@@ -7,11 +7,11 @@ using System.Text;
 
 namespace DreamJourney.Data.Models
 {
-    public class TripApplication
+    public class TripApplication:BaseModel
     {
-        [Required]
-        [Key]
-        public int Id { get; set; }
+        //[Required]
+        //[Key]
+        //public int Id { get; set; }
 
         [ForeignKey("UserId")]
         public int? UserId { get; set; }
