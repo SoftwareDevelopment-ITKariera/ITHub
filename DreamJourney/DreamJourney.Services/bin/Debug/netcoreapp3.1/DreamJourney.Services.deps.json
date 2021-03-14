@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DreamJourney.Services/1.0.0": {
+        "runtime": {
+          "DreamJourney.Services.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DreamJourney.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

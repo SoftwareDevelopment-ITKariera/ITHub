@@ -1,0 +1,17 @@
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\DreamJourney\DreamJourney.ViewModels\bin\Debug\netcoreapp3.1\DreamJourney.ViewModels.deps.json
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\DreamJourney\DreamJourney.ViewModels\bin\Debug\netcoreapp3.1\DreamJourney.ViewModels.dll
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\DreamJourney\DreamJourney.ViewModels\bin\Debug\netcoreapp3.1\DreamJourney.ViewModels.pdb
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\DreamJourney\DreamJourney.ViewModels\obj\Debug\netcoreapp3.1\DreamJourney.ViewModels.csprojAssemblyReference.cache
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\DreamJourney\DreamJourney.ViewModels\obj\Debug\netcoreapp3.1\DreamJourney.ViewModels.AssemblyInfoInputs.cache
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\DreamJourney\DreamJourney.ViewModels\obj\Debug\netcoreapp3.1\DreamJourney.ViewModels.AssemblyInfo.cs
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\DreamJourney\DreamJourney.ViewModels\obj\Debug\netcoreapp3.1\DreamJourney.ViewModels.dll
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\DreamJourney\DreamJourney.ViewModels\obj\Debug\netcoreapp3.1\DreamJourney.ViewModels.pdb
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\DreamJourney\DreamJourney.ViewModels\bin\Debug\netcoreapp3.1\DreamJourney.ViewModels.deps.json
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\DreamJourney\DreamJourney.ViewModels\bin\Debug\netcoreapp3.1\DreamJourney.ViewModels.dll
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\DreamJourney\DreamJourney.ViewModels\bin\Debug\netcoreapp3.1\DreamJourney.ViewModels.pdb
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\DreamJourney\DreamJourney.ViewModels\obj\Debug\netcoreapp3.1\DreamJourney.ViewModels.csprojAssemblyReference.cache
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\DreamJourney\DreamJourney.ViewModels\obj\Debug\netcoreapp3.1\DreamJourney.ViewModels.AssemblyInfoInputs.cache
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\DreamJourney\DreamJourney.ViewModels\obj\Debug\netcoreapp3.1\DreamJourney.ViewModels.AssemblyInfo.cs
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\DreamJourney\DreamJourney.ViewModels\obj\Debug\netcoreapp3.1\DreamJourney.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\DreamJourney\DreamJourney.ViewModels\obj\Debug\netcoreapp3.1\DreamJourney.ViewModels.dll
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\DreamJourney\DreamJourney.ViewModels\obj\Debug\netcoreapp3.1\DreamJourney.ViewModels.pdb
