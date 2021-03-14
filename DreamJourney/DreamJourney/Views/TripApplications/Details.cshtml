@@ -1,0 +1,49 @@
+﻿@model DreamJourney.ViewModels.TripApplication.TripApplicationDetailsViewModel
+@using Microsoft.AspNetCore.Http;
+
+<div style="margin-bottom:20px" class="row align-content-center">
+    <hr />
+    <div class="col-1">
+        <div class="w-100">
+            <img class="w-100" src="@Html.DisplayFor(model => model.ImageUrl)" alt="pic" />
+        </div>
+    </div>
+
+    <div class="col-4">
+        <strong>Name:</strong> @Html.DisplayFor(model => model.UserFirstLastName)
+    </div>
+
+    <div class="col-3">
+        <strong>Email:</strong> @Html.DisplayFor(model => model.UserEmail)
+    </div>
+
+    <div class="col-1">
+        @if (Model.Status == DreamJourney.Data.Models.Enums.ApplicationStatus.Accepted)
+        {
+            <strong style="color:darkgreen">@Html.DisplayFor(model => model.Status)</strong>
+        }
+        else
+     if (Model.Status == DreamJourney.Data.Models.Enums.ApplicationStatus.Rejected)
+        {
+            <strong style="color:darkred">@Html.DisplayFor(model => model.Status)</strong>
+        }
+        else
+            @Html.DisplayFor(model => model.Status)
+    </div>
+
+    <div class="col-3">
+        @if (Model.UserId == Context.Session.GetInt32("loggedUserId").Value)
+        {
+            @Html.ActionLink("Delete", "Delete", "TripApplication", new { id = Model.Id })
+        }
+        else
+        {
+            <strong class="btn btn-outline-success"> @Html.ActionLink("Accept", "Accept", "TripApplication", new { id = Model.Id })</strong>
+            <strong class="btn btn-outline-danger"> @Html.ActionLink("Reject", "Reject", "TripApplication", new { id = Model.Id }) </strong>
+        }
+
+    </div>
+
+</div>
+
+

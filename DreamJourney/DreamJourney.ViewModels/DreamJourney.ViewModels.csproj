@@ -5,8 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="TripApplication\" />
-    <Folder Include="Trip\" />
+    <ProjectReference Include="..\DreamJourney.Data.Models\DreamJourney.Data.Models.csproj" />
   </ItemGroup>
 
 </Project>

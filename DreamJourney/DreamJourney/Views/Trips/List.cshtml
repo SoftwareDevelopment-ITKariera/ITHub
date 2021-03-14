@@ -1,0 +1,64 @@
+﻿@model IEnumerable<DreamJourney.ViewModels.Trip.TripListViewModel>
+@using Microsoft.AspNetCore.Http;
+
+<h1>Trips</h1>
+
+<p>
+    <a asp-action="Edit">Create New</a>
+</p>
+<div class="container">
+    @foreach (var item in Model)
+    {
+        <hr>
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <h5>
+                        @Html.DisplayFor(modelItem => item.Title)
+
+                        @if (Context.Session.GetInt32("loggedUserId").HasValue && Context.Session.GetInt32("loggedUserId").Value == item.UserId)
+                        {
+                            <p style="font-size:12px">
+                                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                            </p>
+                        }
+
+                    </h5>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <div class="w-100">
+                            <img class="w-100" src="@Html.DisplayFor(modelItem => item.ImageUrl)">
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <div class="container">
+                            <div class="row">
+                                <p>
+                                    <strong> @Html.DisplayFor(modelItem => item.Destinations) </strong><br>
+                                    <i>Deparature on @Html.DisplayFor(modelItem => item.Date) for @Html.DisplayFor(modelItem => item.Days) days.</i>
+                                </p>
+                            </div>
+                            <div class="row">
+                                Organised by: &nbsp  @Html.DisplayFor(modelItem => item.UserFirstLastNames)
+                            </div>
+                            <div class="row">
+                                <p style="font-weight:bold"><span style="float:right; margin:10px">$ @Html.DisplayFor(modelItem => item.Price) </span></p>
+
+                            </div>
+                            <div class="row">
+                                @Html.ActionLink("Details", "Details", new { id = item.Id })
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+
+
+
+

@@ -1,0 +1,108 @@
+﻿@model DreamJourney.ViewModels.Trip.TripDetailsViewModel
+@using Microsoft.AspNetCore.Http;
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>@Html.DisplayFor(model => model.Title)</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+        </dt>
+        <dd class="col-sm-10">
+            <div class="col-6">
+                <div class="w-100">
+                    <img class="w-100" src="@Html.DisplayFor(model => model.ImageUrl)">
+                </div>
+            </div>
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Destinations)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Destinations)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Days)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Days)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FromPlace)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FromPlace)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Seats)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Seats)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserFirstLastName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserFirstLastName)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd class="col-sm-10">
+            $ @Html.DisplayFor(model => model.Price)
+        </dd>
+
+    </dl>
+    <div>
+        @if (Model.TripApplications.FirstOrDefault(ta => ta.UserId == Context.Session.GetInt32("loggedUserId").Value) == null && !AuthUser.LoggedUser.Role)
+        {
+        <button style="margin:20px" class="btn btn-success">@Html.ActionLink("Apply", "Apply", "TripApplication", new { tripId = Model.Id })</button>
+        }
+        else
+        {
+        <button style="margin:20px" class="btn btn-info">Bellow is Application Info</button>
+        }
+    </div>
+    <div class="text-capitalize">
+        <h5>Available seats: </h5> <h4>@Html.DisplayFor(model => model.AvailableSeats)</h4>
+    </div>
+    <div class="container">
+        @if (Model.UserId == Context.Session.GetInt32("loggedUserId").Value)
+        {
+        @foreach (var item in Model.TripApplications)
+            {
+        @Html.Partial("~/Views/TripApplication/Details.cshtml", item)
+            }
+        }
+        else
+        {
+        @if (Model.TripApplications.FirstOrDefault(ta => ta.UserId == Context.Session.GetInt32("loggedUserId").Value) != null)
+            {
+        @Html.Partial("~/Views/TripApplication/Details.cshtml", Model.TripApplications.FirstOrDefault(ta => ta.UserId == Context.Session.GetInt32("loggedUserId").Value))
+            }
+
+        }
+    </div>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    <a asp-action="List">Back to List</a>
+</div>

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DreamJourney
 {
-    public static class AuthUser
+    public static class AuthUser 
     {
         public static User LoggedUser;
     }

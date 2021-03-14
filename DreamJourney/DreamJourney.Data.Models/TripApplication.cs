@@ -14,11 +14,11 @@ namespace DreamJourney.Data.Models
         //public int Id { get; set; }
 
         [ForeignKey("UserId")]
-        public int? UserId { get; set; }
+        public int UserId { get; set; }
         public User User { get; set; }
 
         [ForeignKey(nameof(TripId))]
-        public int? TripId { get; set; }
+        public int TripId { get; set; }
         public Trip Trip { get; set; }
 
         [Required]

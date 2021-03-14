@@ -23,3 +23,6 @@ D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\ITHubRepo\ITHu
 D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\ITHubRepo\ITHub\DreamJourney\DreamJourney.ViewModels\obj\Debug\netcoreapp3.1\DreamJourney.ViewModels.AssemblyInfo.cs
 D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\ITHubRepo\ITHub\DreamJourney\DreamJourney.ViewModels\obj\Debug\netcoreapp3.1\DreamJourney.ViewModels.dll
 D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\ITHubRepo\ITHub\DreamJourney\DreamJourney.ViewModels\obj\Debug\netcoreapp3.1\DreamJourney.ViewModels.pdb
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\ITHubRepo\ITHub\DreamJourney\DreamJourney.ViewModels\bin\Debug\netcoreapp3.1\DreamJourney.Data.Models.dll
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\ITHubRepo\ITHub\DreamJourney\DreamJourney.ViewModels\bin\Debug\netcoreapp3.1\DreamJourney.Data.Models.pdb
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\ITHubRepo\ITHub\DreamJourney\DreamJourney.ViewModels\obj\Debug\netcoreapp3.1\DreamJourney.ViewModels.csproj.CopyComplete
