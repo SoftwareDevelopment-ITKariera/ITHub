@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\DreamJourney\\DreamJourney.Data\\DreamJourney.Data.csproj": {}
+    "D:\\DOCUMENTS\\School\\IT kariera\\modul7\\9.Курсов-проект\\ITHubRepo\\ITHub\\DreamJourney\\DreamJourney.Data\\DreamJourney.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\DreamJourney\\DreamJourney.Data.Models\\DreamJourney.Data.Models.csproj": {
+    "D:\\DOCUMENTS\\School\\IT kariera\\modul7\\9.Курсов-проект\\ITHubRepo\\ITHub\\DreamJourney\\DreamJourney.Data.Models\\DreamJourney.Data.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\DreamJourney\\DreamJourney.Data.Models\\DreamJourney.Data.Models.csproj",
+        "projectUniqueName": "D:\\DOCUMENTS\\School\\IT kariera\\modul7\\9.Курсов-проект\\ITHubRepo\\ITHub\\DreamJourney\\DreamJourney.Data.Models\\DreamJourney.Data.Models.csproj",
         "projectName": "DreamJourney.Data.Models",
-        "projectPath": "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\DreamJourney\\DreamJourney.Data.Models\\DreamJourney.Data.Models.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\DreamJourney\\DreamJourney.Data.Models\\obj\\",
+        "projectPath": "D:\\DOCUMENTS\\School\\IT kariera\\modul7\\9.Курсов-проект\\ITHubRepo\\ITHub\\DreamJourney\\DreamJourney.Data.Models\\DreamJourney.Data.Models.csproj",
+        "packagesPath": "C:\\Users\\MISHELL\\.nuget\\packages\\",
+        "outputPath": "D:\\DOCUMENTS\\School\\IT kariera\\modul7\\9.Курсов-проект\\ITHubRepo\\ITHub\\DreamJourney\\DreamJourney.Data.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MISHELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -56,24 +56,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\DreamJourney\\DreamJourney.Data\\DreamJourney.Data.csproj": {
+    "D:\\DOCUMENTS\\School\\IT kariera\\modul7\\9.Курсов-проект\\ITHubRepo\\ITHub\\DreamJourney\\DreamJourney.Data\\DreamJourney.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\DreamJourney\\DreamJourney.Data\\DreamJourney.Data.csproj",
+        "projectUniqueName": "D:\\DOCUMENTS\\School\\IT kariera\\modul7\\9.Курсов-проект\\ITHubRepo\\ITHub\\DreamJourney\\DreamJourney.Data\\DreamJourney.Data.csproj",
         "projectName": "DreamJourney.Data",
-        "projectPath": "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\DreamJourney\\DreamJourney.Data\\DreamJourney.Data.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\DreamJourney\\DreamJourney.Data\\obj\\",
+        "projectPath": "D:\\DOCUMENTS\\School\\IT kariera\\modul7\\9.Курсов-проект\\ITHubRepo\\ITHub\\DreamJourney\\DreamJourney.Data\\DreamJourney.Data.csproj",
+        "packagesPath": "C:\\Users\\MISHELL\\.nuget\\packages\\",
+        "outputPath": "D:\\DOCUMENTS\\School\\IT kariera\\modul7\\9.Курсов-проект\\ITHubRepo\\ITHub\\DreamJourney\\DreamJourney.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MISHELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -87,8 +87,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\DreamJourney\\DreamJourney.Data.Models\\DreamJourney.Data.Models.csproj": {
-                "projectPath": "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\DreamJourney\\DreamJourney.Data.Models\\DreamJourney.Data.Models.csproj"
+              "D:\\DOCUMENTS\\School\\IT kariera\\modul7\\9.Курсов-проект\\ITHubRepo\\ITHub\\DreamJourney\\DreamJourney.Data.Models\\DreamJourney.Data.Models.csproj": {
+                "projectPath": "D:\\DOCUMENTS\\School\\IT kariera\\modul7\\9.Курсов-проект\\ITHubRepo\\ITHub\\DreamJourney\\DreamJourney.Data.Models\\DreamJourney.Data.Models.csproj"
               }
             }
           }
@@ -128,7 +128,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
