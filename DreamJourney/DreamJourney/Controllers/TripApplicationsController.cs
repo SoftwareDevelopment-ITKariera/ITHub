@@ -10,12 +10,12 @@ using System.Threading.Tasks;
 
 namespace DreamJourney.Controllers
 {
-    public class TripAplicationsController:Controller
+    public class TripApplicationsController:Controller
     {
         private readonly ITripApplicationsService tripApplicationService;
         private readonly ITripsService tripService;
 
-        public TripAplicationsController(ITripApplicationsService tripApplicationService, ITripsService tripService)
+        public TripApplicationsController(ITripApplicationsService tripApplicationService, ITripsService tripService)
         {
             this.tripApplicationService = tripApplicationService;
             this.tripService = tripService;
@@ -25,7 +25,7 @@ namespace DreamJourney.Controllers
         {
             if (!tripId.HasValue)
             {
-                return RedirectToAction("List", "Trip");
+                return RedirectToAction("List", "Trips");
             }
             TripApplication tripApp = tripApplicationService.GetByTripIdUserId(tripId.Value, HttpContext.Session.GetInt32("loggedUserId").Value);
             if (tripApp == null)
@@ -39,21 +39,21 @@ namespace DreamJourney.Controllers
                 tripApplicationService.Insert(application);
             }
 
-            return RedirectToAction("Details", "Trip", new { id = tripId });
+            return RedirectToAction("Details", "Trips", new { id = tripId });
         }
         [TravellerFilter]
         public IActionResult Delete(int? id)
         {
             if (!id.HasValue)
             {
-                return RedirectToAction("List", "Trip");
+                return RedirectToAction("List", "Trips");
             }
             TripApplication tripApp = tripApplicationService.GetById(id.Value);
             if (tripApp != null && tripApp.UserId == AuthUser.LoggedUser.Id)
             {
                 tripApplicationService.Delete(tripApp.Id);
             }
-            return RedirectToAction("Details", "Trip", new { id = tripApp.TripId });
+            return RedirectToAction("Details", "Trips", new { id = tripApp.TripId });
         }
 
         public IActionResult Accept(int? id)
@@ -67,19 +67,19 @@ namespace DreamJourney.Controllers
             {
                 if (Counters.AvailableSeats == 0)
                 {
-                    return RedirectToAction("Details", "Trip", new { id = tripApp.TripId });
+                    return RedirectToAction("Details", "Trips", new { id = tripApp.TripId });
                 }
                 tripApp.Status = Data.Models.Enums.ApplicationStatus.Accepted;
                 tripApplicationService.Update(tripApp);
             }
-            return RedirectToAction("Details", "Trip", new { id = tripApp.TripId });
+            return RedirectToAction("Details", "Trips", new { id = tripApp.TripId });
         }
 
         public IActionResult Reject(int? id)
         {
             if (!id.HasValue)
             {
-                return RedirectToAction("List", "Trip");
+                return RedirectToAction("List", "Trips");
             }
             TripApplication tripApp = tripApplicationService.GetById(id.Value);
             if (tripService.GetById(tripApp.TripId).UserId == HttpContext.Session.GetInt32("loggedUserId").Value)
@@ -87,7 +87,7 @@ namespace DreamJourney.Controllers
                 tripApp.Status = Data.Models.Enums.ApplicationStatus.Rejected;
                 tripApplicationService.Update(tripApp);
             }
-            return RedirectToAction("Details", "Trip", new { id = tripApp.TripId });
+            return RedirectToAction("Details", "Trips", new { id = tripApp.TripId });
         }
     }
 }

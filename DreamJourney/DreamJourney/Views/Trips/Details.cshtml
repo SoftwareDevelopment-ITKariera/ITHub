@@ -74,7 +74,7 @@
     <div>
         @if (Model.TripApplications.FirstOrDefault(ta => ta.UserId == Context.Session.GetInt32("loggedUserId").Value) == null && !AuthUser.LoggedUser.Role)
         {
-        <button style="margin:20px" class="btn btn-success">@Html.ActionLink("Apply", "Apply", "TripApplication", new { tripId = Model.Id })</button>
+        <button style="margin:20px" class="btn btn-success">@Html.ActionLink("Apply", "Apply", "TripApplications", new { tripId = Model.Id })</button>
         }
         else
         {
@@ -89,14 +89,14 @@
         {
         @foreach (var item in Model.TripApplications)
             {
-        @Html.Partial("~/Views/TripApplication/Details.cshtml", item)
+        @Html.Partial("~/Views/TripApplications/Details.cshtml", item)
             }
         }
         else
         {
         @if (Model.TripApplications.FirstOrDefault(ta => ta.UserId == Context.Session.GetInt32("loggedUserId").Value) != null)
             {
-        @Html.Partial("~/Views/TripApplication/Details.cshtml", Model.TripApplications.FirstOrDefault(ta => ta.UserId == Context.Session.GetInt32("loggedUserId").Value))
+        @Html.Partial("~/Views/TripApplications/Details.cshtml", Model.TripApplications.FirstOrDefault(ta => ta.UserId == Context.Session.GetInt32("loggedUserId").Value))
             }
 
         }
