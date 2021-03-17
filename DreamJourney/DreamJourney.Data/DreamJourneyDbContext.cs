@@ -8,15 +8,20 @@ namespace DreamJourney.Data
 {
     public class DreamJourneyDbContext : DbContext
     {
+        public DreamJourneyDbContext()
+        {
+
+        }
+
         public DreamJourneyDbContext(DbContextOptions<DreamJourneyDbContext> options)
             : base(options)
         {
 
         }
 
-        public DbSet<User> Users { get; set; }
-        public DbSet<Trip> Trips { get; set; }
-        public DbSet<TripApplication> TripApplications { get; set; }
+        public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<Trip> Trips { get; set; }
+        public virtual DbSet<TripApplication> TripApplications { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

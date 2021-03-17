@@ -14,11 +14,16 @@ namespace DreamJourney.Services
         protected readonly DreamJourneyDbContext dbContext;
         protected readonly DbSet<T> dbSet;
 
-        public BaseService(DreamJourneyDbContext context)
+        public BaseService(DreamJourneyDbContext? context)
         {
             dbContext = context;
             dbSet = context.Set<T>();
         }
+        //public BaseService()
+        //{
+        //    dbContext = new DreamJourneyDbContext();
+        //    dbSet = dbContext.Set<T>();
+        //}
         public void Delete(int id)
         {
             dbSet.Remove(GetById(id));

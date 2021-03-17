@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DreamJourney", "DreamJourney\DreamJourney.csproj", "{43C72C03-B12A-4ACD-B32D-55449B48F21A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DreamJourney", "DreamJourney\DreamJourney.csproj", "{43C72C03-B12A-4ACD-B32D-55449B48F21A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DreamJourney.Data", "DreamJourney.Data\DreamJourney.Data.csproj", "{9047C196-91EC-43E0-9525-DCECB5172C4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DreamJourney.Data", "DreamJourney.Data\DreamJourney.Data.csproj", "{9047C196-91EC-43E0-9525-DCECB5172C4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DreamJourney.Data.Models", "DreamJourney.Data.Models\DreamJourney.Data.Models.csproj", "{5C4BCEB5-7CB0-4A6D-B953-799470945079}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DreamJourney.Data.Models", "DreamJourney.Data.Models\DreamJourney.Data.Models.csproj", "{5C4BCEB5-7CB0-4A6D-B953-799470945079}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DreamJourney.Services", "DreamJourney.Services\DreamJourney.Services.csproj", "{88EC757E-FD8B-45FD-A034-043A59DDC935}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DreamJourney.Services", "DreamJourney.Services\DreamJourney.Services.csproj", "{88EC757E-FD8B-45FD-A034-043A59DDC935}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DreamJourney.ViewModels", "DreamJourney.ViewModels\DreamJourney.ViewModels.csproj", "{0D250707-71D5-40EA-B26C-B6961358DE23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DreamJourney.ViewModels", "DreamJourney.ViewModels\DreamJourney.ViewModels.csproj", "{0D250707-71D5-40EA-B26C-B6961358DE23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DreamJourneyTest", "DreamJourneyTest\DreamJourneyTest.csproj", "{97ACD27B-D500-4C68-A59F-41D3294D038F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{0D250707-71D5-40EA-B26C-B6961358DE23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D250707-71D5-40EA-B26C-B6961358DE23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D250707-71D5-40EA-B26C-B6961358DE23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97ACD27B-D500-4C68-A59F-41D3294D038F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97ACD27B-D500-4C68-A59F-41D3294D038F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97ACD27B-D500-4C68-A59F-41D3294D038F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97ACD27B-D500-4C68-A59F-41D3294D038F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

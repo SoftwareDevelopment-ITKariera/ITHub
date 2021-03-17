@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Castle.Core" Version="4.4.1" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
+    <PackageReference Include="MongoDB.Driver.Core" Version="2.12.0" />
+    <PackageReference Include="Moq" Version="4.16.1" />
+    <PackageReference Include="nunit" Version="3.12.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.15.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DreamJourney.Data.Models\DreamJourney.Data.Models.csproj" />
+    <ProjectReference Include="..\DreamJourney.Data\DreamJourney.Data.csproj" />
+    <ProjectReference Include="..\DreamJourney.Services\DreamJourney.Services.csproj" />
+    <ProjectReference Include="..\DreamJourney.ViewModels\DreamJourney.ViewModels.csproj" />
+    <ProjectReference Include="..\DreamJourney\DreamJourney.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -9,10 +9,16 @@ namespace DreamJourney.Services
 {
     public class UsersService : BaseService<User>, IUsersService
     {
-        public UsersService(DreamJourneyDbContext context) : base(context)
+        public UsersService(DreamJourneyDbContext? context) : base(context)
         {
 
         }
+
+        //public UsersService() : base()
+        //{
+
+        //}
+
         public User GetByUsername(string username)
         {
             return GetAll().FirstOrDefault(user => user.Username == username);
