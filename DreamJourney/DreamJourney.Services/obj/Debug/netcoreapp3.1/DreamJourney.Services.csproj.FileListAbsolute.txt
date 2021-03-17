@@ -41,3 +41,4 @@ D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\ITHubRepo\ITHu
 D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\ITHubRepo\ITHub\DreamJourney\DreamJourney.Services\obj\Debug\netcoreapp3.1\DreamJourney.Services.csproj.CopyComplete
 D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\ITHubRepo\ITHub\DreamJourney\DreamJourney.Services\obj\Debug\netcoreapp3.1\DreamJourney.Services.dll
 D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\ITHubRepo\ITHub\DreamJourney\DreamJourney.Services\obj\Debug\netcoreapp3.1\DreamJourney.Services.pdb
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\DreamJourney\DreamJourney.Services\obj\Debug\netcoreapp3.1\DreamJourney.Services.csproj.CoreCompileInputs.cache

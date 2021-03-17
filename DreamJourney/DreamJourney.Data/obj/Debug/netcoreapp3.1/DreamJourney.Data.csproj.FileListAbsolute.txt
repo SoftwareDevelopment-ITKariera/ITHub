@@ -39,3 +39,18 @@ D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\ITHubRepo\ITHu
 D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\ITHubRepo\ITHub\DreamJourney\DreamJourney.Data\obj\Debug\netcoreapp3.1\DreamJourney.Data.csproj.CopyComplete
 D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\ITHubRepo\ITHub\DreamJourney\DreamJourney.Data\obj\Debug\netcoreapp3.1\DreamJourney.Data.dll
 D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\ITHubRepo\ITHub\DreamJourney\DreamJourney.Data\obj\Debug\netcoreapp3.1\DreamJourney.Data.pdb
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\DreamJourney\DreamJourney.Data\obj\Debug\netcoreapp3.1\DreamJourney.Data.dll
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\DreamJourney\DreamJourney.Data\obj\Debug\netcoreapp3.1\DreamJourney.Data.pdb
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\DreamJourney\DreamJourney.Data\bin\Debug\netcoreapp3.1\DreamJourney.Data.deps.json
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\DreamJourney\DreamJourney.Data\bin\Debug\netcoreapp3.1\DreamJourney.Data.runtimeconfig.json
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\DreamJourney\DreamJourney.Data\bin\Debug\netcoreapp3.1\DreamJourney.Data.runtimeconfig.dev.json
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\DreamJourney\DreamJourney.Data\bin\Debug\netcoreapp3.1\DreamJourney.Data.dll
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\DreamJourney\DreamJourney.Data\bin\Debug\netcoreapp3.1\DreamJourney.Data.pdb
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\DreamJourney\DreamJourney.Data\bin\Debug\netcoreapp3.1\DreamJourney.Data.Models.dll
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\DreamJourney\DreamJourney.Data\bin\Debug\netcoreapp3.1\DreamJourney.Data.Models.pdb
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\DreamJourney\DreamJourney.Data\obj\Debug\netcoreapp3.1\DreamJourney.Data.csprojAssemblyReference.cache
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\DreamJourney\DreamJourney.Data\obj\Debug\netcoreapp3.1\DreamJourney.Data.AssemblyInfoInputs.cache
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\DreamJourney\DreamJourney.Data\obj\Debug\netcoreapp3.1\DreamJourney.Data.AssemblyInfo.cs
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\DreamJourney\DreamJourney.Data\obj\Debug\netcoreapp3.1\DreamJourney.Data.csproj.CopyComplete
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\DreamJourney\DreamJourney.Data\obj\Debug\netcoreapp3.1\DreamJourney.Data.genruntimeconfig.cache
+C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\DreamJourney\DreamJourney.Data\obj\Debug\netcoreapp3.1\DreamJourney.Data.csproj.CoreCompileInputs.cache

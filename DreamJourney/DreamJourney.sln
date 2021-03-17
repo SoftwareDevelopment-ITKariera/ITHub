@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DreamJourney.Services", "Dr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DreamJourney.ViewModels", "DreamJourney.ViewModels\DreamJourney.ViewModels.csproj", "{0D250707-71D5-40EA-B26C-B6961358DE23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DreamJourneyTest", "DreamJourneyTest\DreamJourneyTest.csproj", "{97ACD27B-D500-4C68-A59F-41D3294D038F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DreamJourney.Test", "DreamJourney.Test\DreamJourney.Test.csproj", "{EA7DDC10-7D5A-41EF-B61D-C51FD5677E7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{0D250707-71D5-40EA-B26C-B6961358DE23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D250707-71D5-40EA-B26C-B6961358DE23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D250707-71D5-40EA-B26C-B6961358DE23}.Release|Any CPU.Build.0 = Release|Any CPU
-		{97ACD27B-D500-4C68-A59F-41D3294D038F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{97ACD27B-D500-4C68-A59F-41D3294D038F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{97ACD27B-D500-4C68-A59F-41D3294D038F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{97ACD27B-D500-4C68-A59F-41D3294D038F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA7DDC10-7D5A-41EF-B61D-C51FD5677E7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA7DDC10-7D5A-41EF-B61D-C51FD5677E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA7DDC10-7D5A-41EF-B61D-C51FD5677E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA7DDC10-7D5A-41EF-B61D-C51FD5677E7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
