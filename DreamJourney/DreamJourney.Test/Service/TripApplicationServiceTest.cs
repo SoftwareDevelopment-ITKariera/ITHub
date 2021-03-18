@@ -144,5 +144,63 @@ namespace DreamJourney.Test.Service
 
             Assert.Equal(expected, actualCount);
         }
+        [Fact]
+        public void TripApplication_Insert_WorkWell()
+        {
+            var data = new List<TripApplication>
+            {
+                new TripApplication(){Id = 1, UserId=1, TripId=1, User = new User(){ Id = 2, FirstName = "Aleksi", Username = "darabarastochadura"} },
+                new TripApplication(){Id = 2, UserId=2, TripId=2 },
+                new TripApplication(){Id = 3, UserId=3, TripId=3 }
+            }.AsQueryable();
+
+            var options = new DbContextOptionsBuilder<DreamJourneyDbContext>()
+                .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString())
+                .Options;
+
+            var context = new DreamJourneyDbContext(options);
+            context.TripApplications.AddRange(data);
+            context.SaveChanges();
+
+            var tripAService = new TripApplicationsService(context);
+            var dbSet = context.Set<TripApplication>();
+
+            var expected = dbSet.Count() + 1;
+            tripAService.Insert(new TripApplication() { Id = 4, UserId = 4, TripId = 4 });
+            //var actualData = data.FirstOrDefault(x => x.Id == 1);
+            //User expectedData = null;
+            var actualCount = dbSet.Count();
+
+            Assert.Equal(expected, actualCount);
+        }
+        [Fact]
+        public void Trip_Update_WorkWell()
+        {
+            var data = new List<TripApplication>
+            {
+                new TripApplication(){Id = 1, UserId=1, TripId=1, User = new User(){ Id = 2, FirstName = "Aleksi", Username = "darabarastochadura"} },
+                new TripApplication(){Id = 2, UserId=2, TripId=2 },
+                new TripApplication(){Id = 3, UserId=3, TripId=3 }
+            }.AsQueryable();
+
+            var options = new DbContextOptionsBuilder<DreamJourneyDbContext>()
+                .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString())
+                .Options;
+
+            var context = new DreamJourneyDbContext(options);
+            context.TripApplications.AddRange(data);
+            context.SaveChanges();
+
+            var tripAService = new TripApplicationsService(context);
+            var dbSet = context.Set<TripApplication>();
+
+            TripApplication tripA = new TripApplication() { Id = 3, UserId = 3, TripId = 3 };
+            tripAService.Update(tripA);
+
+            var expected = 3;
+            var actualData = dbSet.FirstOrDefault(x => x.Id == 3);
+
+            Assert.Equal(expected, actualData.UserId);
+        }
     }
 }

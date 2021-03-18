@@ -175,5 +175,75 @@ namespace DreamJourney.Test.Service
 
             Assert.Equal(expected, actualCount);
         }
+        [Fact]
+        public void Trip_Insert_WorkWell()
+        {
+            var data = new List<Trip>
+            {
+                new Trip(){Id=1, Title = "title", Destinations="Paris", User = new User(){ Id = 2, FirstName = "Aleksi", Username = "darabarastochadura"} },
+                new Trip(){Id=2, Title = "title2", Destinations="Paris2" },
+                new Trip(){Id=3, Title = "title3", Destinations="Paris3" }
+            }.AsQueryable();
+
+            var options = new DbContextOptionsBuilder<DreamJourneyDbContext>()
+                .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString())
+                .Options;
+
+            var context = new DreamJourneyDbContext(options);
+            context.Trips.AddRange(data);
+            context.SaveChanges();
+
+            var tripsService = new TripsService(context);
+            var dbSet = context.Set<Trip>();
+
+            var expected = dbSet.Count() + 1;
+            tripsService.Insert(new Trip() { Id = 4, Title = "title4", Destinations = "Paris4" });
+            //var actualData = data.FirstOrDefault(x => x.Id == 1);
+            //User expectedData = null;
+            var actualCount = dbSet.Count();
+
+            Assert.Equal(expected, actualCount);
+        }
+        [Fact]
+        public void Trip_Update_WorkWell()
+        {
+            var data = new List<Trip>
+            {
+                new Trip(){Id=1, Title = "title", Destinations="Paris", User = new User(){ Id = 2, FirstName = "Aleksi", Username = "darabarastochadura"} },
+                new Trip(){Id=2, Title = "title2", Destinations="Paris2" },
+                new Trip(){Id = 3, Title = "title3", Destinations="Paris3" }
+            }.AsQueryable();
+
+            var options = new DbContextOptionsBuilder<DreamJourneyDbContext>()
+                .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString())
+                .Options;
+
+            var context = new DreamJourneyDbContext(options);
+            context.Trips.AddRange(data);
+            context.SaveChanges();
+
+            var tripsService = new TripsService(context);
+            var dbSet = context.Set<Trip>();
+                                 
+            
+            Trip trip = new Trip() { Id = 3, Title = "title33", Destinations = "Paris33" };
+            tripsService.Update(trip);
+
+            var expected = "title33";
+            var actualData = dbSet.FirstOrDefault(x => x.Id == 3);
+
+            Assert.Equal(expected, actualData.Title);
+            
+            
+            //Trip trip1 = new Trip() { Id = 4, Title = "title33", Destinations = "Paris33" };
+            //tripsService.Update(trip1);
+
+            //Trip expected1 = null;
+            //var actualData1 = dbSet.FirstOrDefault(x => x.Id == 4);
+
+            //Assert.Equal(expected1, actualData1);
+            
+        }
+
     }
 }
