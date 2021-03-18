@@ -23,7 +23,7 @@ namespace DreamJourney.Services
         //{
         //    dbContext = new DreamJourneyDbContext();
         //    dbSet = dbContext.Set<T>();
-        //}
+        //} 
         public void Delete(int id)
         {
             dbSet.Remove(GetById(id));

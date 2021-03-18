@@ -63,6 +63,57 @@ namespace DreamJourney.Test.Service
 
             Assert.Equal(expectedData, actualData);
         }
-    }
 
+        [Fact]
+        public void TripA_GetById_WorkWell()
+        {
+            var data = new List<TripApplication>
+            {
+                new TripApplication(){Id = 1, UserId=1, TripId=1, User = new User(){ Id = 2, FirstName = "Aleksi", Username = "darabarastochadura"} },
+                new TripApplication(){Id = 2, UserId=2, TripId=2 },
+                new TripApplication(){Id = 3, UserId=3, TripId=3 }
+            }.AsQueryable();
+
+            var options = new DbContextOptionsBuilder<DreamJourneyDbContext>()
+                .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString())
+                .Options;
+
+            var context = new DreamJourneyDbContext(options);
+            context.TripApplications.AddRange(data);
+            context.SaveChanges();
+
+            var userService = new TripApplicationsService(context);
+
+            var expectedData = data.FirstOrDefault(x => x.Id == 2);
+            var actualData = userService.GetById(2);
+
+            Assert.Equal(expectedData, actualData);
+        }
+
+        [Fact]
+        public void TripA_GetAll_WorkWell()
+        {
+            var data = new List<TripApplication>
+            {
+                new TripApplication(){Id = 1, UserId=1, TripId=1, User = new User(){ Id = 2, FirstName = "Aleksi", Username = "darabarastochadura"} },
+                new TripApplication(){Id = 2, UserId=2, TripId=2 },
+                new TripApplication(){Id = 3, UserId=3, TripId=3 }
+            }.AsQueryable();
+
+            var options = new DbContextOptionsBuilder<DreamJourneyDbContext>()
+                .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString())
+                .Options;
+
+            var context = new DreamJourneyDbContext(options);
+            context.TripApplications.AddRange(data);
+            context.SaveChanges();
+
+            var usersService = new TripApplicationsService(context);
+
+            var expectedData = data.ToList();
+            var actualData = usersService.GetAll();
+            
+            Assert.Equal<TripApplication>(expectedData, actualData);
+        }
+    }
 }

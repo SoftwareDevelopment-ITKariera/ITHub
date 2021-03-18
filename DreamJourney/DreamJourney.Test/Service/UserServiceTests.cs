@@ -14,7 +14,7 @@ namespace DreamJourney.Test.Service
     {
         [Fact]
         public void GetByUsername_WorkWell()
-        {
+        {            
             var data = new List<User>
             {
                 new User(){ Id = 1, FirstName = "Misho", Username = "darabara"},
@@ -66,5 +66,87 @@ namespace DreamJourney.Test.Service
 
             Assert.True(result.FirstName== actualData.FirstName&& result.Password == actualData.Password);
         }
+
+        [Fact]
+        public void GetById_WorkWell()
+        {
+            var data = new List<User>
+            {
+                new User(){ Id = 1, FirstName = "Misho", Username = "darabara"},
+                new User(){ Id = 2, FirstName = "Aleksi", Username = "darabarastochadura"},
+                 new User(){ Id = 3, FirstName = "Emcho", Username = "dara"},
+            }.AsQueryable();
+
+            var options = new DbContextOptionsBuilder<DreamJourneyDbContext>()
+                .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString())
+                .Options;
+
+            var context = new DreamJourneyDbContext(options);
+            context.Users.AddRange(data);
+            context.SaveChanges();
+
+            var userService = new UsersService(context);
+
+            var expectedData = data.FirstOrDefault(x => x.Id == 2);
+            var actualData = userService.GetById(2);
+
+            Assert.Equal(expectedData, actualData);
+        }
+
+        [Fact]
+        public void User_GetAll_WorkWell()
+        {
+            var data = new List<User>
+            {
+                new User(){ Id = 1, FirstName = "Misho", Username = "darabara"},
+                new User(){ Id = 2, FirstName = "Aleksi", Username = "darabarastochadura"},
+                 new User(){ Id = 3, FirstName = "Emcho", Username = "dara"},
+            }.AsQueryable();
+
+            var options = new DbContextOptionsBuilder<DreamJourneyDbContext>()
+                .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString())
+                .Options;
+
+            var context = new DreamJourneyDbContext(options);
+            context.Users.AddRange(data);
+            context.SaveChanges();
+
+            var usersService = new UsersService(context);
+
+            var expectedData = data.ToList();
+            var actualData = usersService.GetAll();
+
+            Assert.Equal<User>(expectedData, actualData);
+        }
+
+        //[Fact]
+        //public void User_Delete_WorkWell()
+        //{
+        //    var data = new List<User>
+        //    {
+        //        new User(){ Id = 1, FirstName = "Misho", Username = "darabara"},
+        //        new User(){ Id = 2, FirstName = "Aleksi", Username = "darabarastochadura"},
+        //         new User(){ Id = 3, FirstName = "Emcho", Username = "dara"},
+        //    }.AsQueryable();
+
+        //    var options = new DbContextOptionsBuilder<DreamJourneyDbContext>()
+        //        .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString())
+        //        .Options;
+
+        //    var context = new DreamJourneyDbContext(options);
+        //    context.Users.AddRange(data);
+        //    context.SaveChanges();
+
+        //    var usersService = new UsersService(context);
+
+        //    var expected = data.Count() - 1;
+        //    usersService.Delete(1);
+        //    //var actualData = data.FirstOrDefault(x => x.Id == 1);
+        //    //User expectedData = null;
+        //    var actualCount = data.Count();
+                       
+        //    Assert.Equal(expected, actualCount);
+        //}
+
     }
 }

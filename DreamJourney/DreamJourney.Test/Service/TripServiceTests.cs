@@ -94,5 +94,57 @@ namespace DreamJourney.Test.Service
             Assert.Equal(expectedData, actualData);
             Assert.Equal(expectedData2, actualData2);
         }
+
+        [Fact]
+        public void Trip_GetById_WorkWell()
+        {
+            var data = new List<Trip>
+            {
+                new Trip(){Id=1, Title = "title", Destinations="Paris",User = new User(){ Id = 2, FirstName = "Aleksi", Username = "darabarastochadura"}, UserId = 1 },
+                new Trip(){Id=2, Title = "title2", Destinations="Paris2",UserId = 2 },
+                new Trip(){Id=3, Title = "title3", Destinations="Paris3",UserId = 3 }
+            }.AsQueryable();
+
+            var options = new DbContextOptionsBuilder<DreamJourneyDbContext>()
+                .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString())
+                .Options;
+
+            var context = new DreamJourneyDbContext(options);
+            context.Trips.AddRange(data);
+            context.SaveChanges();
+
+            var userService = new TripsService(context);
+
+            var expectedData = data.FirstOrDefault(x => x.Id == 2);
+            var actualData = userService.GetById(2);
+
+            Assert.Equal(expectedData, actualData);
+        }
+
+        [Fact]
+        public void Trip_GetAll_WorkWell()
+        {
+            var data = new List<Trip>
+            {
+                new Trip(){Id=1, Title = "title", Destinations="Paris", User = new User(){ Id = 2, FirstName = "Aleksi", Username = "darabarastochadura"} },
+                new Trip(){Id=2, Title = "title2", Destinations="Paris2" },
+                new Trip(){Id=3, Title = "title3", Destinations="Paris3" }
+            }.AsQueryable();
+
+            var options = new DbContextOptionsBuilder<DreamJourneyDbContext>()
+                .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString())
+                .Options;
+
+            var context = new DreamJourneyDbContext(options);
+            context.Trips.AddRange(data);
+            context.SaveChanges();
+
+            var tripService = new TripsService(context);
+
+            var expectedData = data.ToList();
+            var actualData = tripService.GetAll();
+
+            Assert.Equal<Trip>(expectedData, actualData);
+        }
     }
 }
