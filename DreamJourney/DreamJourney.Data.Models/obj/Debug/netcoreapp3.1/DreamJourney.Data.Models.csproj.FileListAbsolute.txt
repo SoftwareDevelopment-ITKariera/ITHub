@@ -32,3 +32,12 @@ C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-пр�
 C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\DreamJourney\DreamJourney.Data.Models\obj\Debug\netcoreapp3.1\DreamJourney.Data.Models.csproj.CoreCompileInputs.cache
 C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\DreamJourney\DreamJourney.Data.Models\obj\Debug\netcoreapp3.1\DreamJourney.Data.Models.dll
 C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\DreamJourney\DreamJourney.Data.Models\obj\Debug\netcoreapp3.1\DreamJourney.Data.Models.pdb
+C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\DreamJourney.Data.Models\bin\Debug\netcoreapp3.1\DreamJourney.Data.Models.deps.json
+C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\DreamJourney.Data.Models\bin\Debug\netcoreapp3.1\DreamJourney.Data.Models.dll
+C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\DreamJourney.Data.Models\bin\Debug\netcoreapp3.1\DreamJourney.Data.Models.pdb
+C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\DreamJourney.Data.Models\obj\Debug\netcoreapp3.1\DreamJourney.Data.Models.csprojAssemblyReference.cache
+C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\DreamJourney.Data.Models\obj\Debug\netcoreapp3.1\DreamJourney.Data.Models.AssemblyInfoInputs.cache
+C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\DreamJourney.Data.Models\obj\Debug\netcoreapp3.1\DreamJourney.Data.Models.AssemblyInfo.cs
+C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\DreamJourney.Data.Models\obj\Debug\netcoreapp3.1\DreamJourney.Data.Models.csproj.CoreCompileInputs.cache
+C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\DreamJourney.Data.Models\obj\Debug\netcoreapp3.1\DreamJourney.Data.Models.dll
+C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\DreamJourney.Data.Models\obj\Debug\netcoreapp3.1\DreamJourney.Data.Models.pdb

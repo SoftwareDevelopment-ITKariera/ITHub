@@ -146,5 +146,34 @@ namespace DreamJourney.Test.Service
 
             Assert.Equal<Trip>(expectedData, actualData);
         }
+        [Fact]
+        public void Trip_Delete_WorkWell()
+        {
+            var data = new List<Trip>
+            {
+                new Trip(){Id=1, Title = "title", Destinations="Paris", User = new User(){ Id = 2, FirstName = "Aleksi", Username = "darabarastochadura"} },
+                new Trip(){Id=2, Title = "title2", Destinations="Paris2" },
+                new Trip(){Id=3, Title = "title3", Destinations="Paris3" }
+            }.AsQueryable();
+
+            var options = new DbContextOptionsBuilder<DreamJourneyDbContext>()
+                .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString())
+                .Options;
+
+            var context = new DreamJourneyDbContext(options);
+            context.Trips.AddRange(data);
+            context.SaveChanges();
+
+            var tripsService = new TripsService(context);
+            var dbSet = context.Set<Trip>();
+
+            var expected = dbSet.Count() - 1;
+            tripsService.Delete(1);
+            //var actualData = data.FirstOrDefault(x => x.Id == 1);
+            //User expectedData = null;
+            var actualCount = dbSet.Count();
+
+            Assert.Equal(expected, actualCount);
+        }
     }
 }

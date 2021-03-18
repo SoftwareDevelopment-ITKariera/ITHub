@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace DreamJourney.Data.Models
 {
-    public class User:BaseModel
+    public class User : BaseModel
     {
         public User()
         {

@@ -42,3 +42,17 @@ D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\ITHubRepo\ITHu
 D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\ITHubRepo\ITHub\DreamJourney\DreamJourney.Services\obj\Debug\netcoreapp3.1\DreamJourney.Services.dll
 D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\ITHubRepo\ITHub\DreamJourney\DreamJourney.Services\obj\Debug\netcoreapp3.1\DreamJourney.Services.pdb
 C:\Users\User\Documents\School\ИТ кариера\Module 7\9.Курсов-проект\ITHubRepository\ITHub\DreamJourney\DreamJourney.Services\obj\Debug\netcoreapp3.1\DreamJourney.Services.csproj.CoreCompileInputs.cache
+C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\DreamJourney.Services\bin\Debug\netcoreapp3.1\DreamJourney.Services.deps.json
+C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\DreamJourney.Services\bin\Debug\netcoreapp3.1\DreamJourney.Services.dll
+C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\DreamJourney.Services\bin\Debug\netcoreapp3.1\DreamJourney.Services.pdb
+C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\DreamJourney.Services\bin\Debug\netcoreapp3.1\DreamJourney.Data.dll
+C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\DreamJourney.Services\bin\Debug\netcoreapp3.1\DreamJourney.Data.Models.dll
+C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\DreamJourney.Services\bin\Debug\netcoreapp3.1\DreamJourney.Data.Models.pdb
+C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\DreamJourney.Services\bin\Debug\netcoreapp3.1\DreamJourney.Data.pdb
+C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\DreamJourney.Services\obj\Debug\netcoreapp3.1\DreamJourney.Services.csprojAssemblyReference.cache
+C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\DreamJourney.Services\obj\Debug\netcoreapp3.1\DreamJourney.Services.AssemblyInfoInputs.cache
+C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\DreamJourney.Services\obj\Debug\netcoreapp3.1\DreamJourney.Services.AssemblyInfo.cs
+C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\DreamJourney.Services\obj\Debug\netcoreapp3.1\DreamJourney.Services.csproj.CoreCompileInputs.cache
+C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\DreamJourney.Services\obj\Debug\netcoreapp3.1\DreamJourney.Services.csproj.CopyComplete
+C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\DreamJourney.Services\obj\Debug\netcoreapp3.1\DreamJourney.Services.dll
+C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\DreamJourney.Services\obj\Debug\netcoreapp3.1\DreamJourney.Services.pdb

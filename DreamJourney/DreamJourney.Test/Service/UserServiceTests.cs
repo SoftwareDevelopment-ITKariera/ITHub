@@ -119,34 +119,35 @@ namespace DreamJourney.Test.Service
             Assert.Equal<User>(expectedData, actualData);
         }
 
-        //[Fact]
-        //public void User_Delete_WorkWell()
-        //{
-        //    var data = new List<User>
-        //    {
-        //        new User(){ Id = 1, FirstName = "Misho", Username = "darabara"},
-        //        new User(){ Id = 2, FirstName = "Aleksi", Username = "darabarastochadura"},
-        //         new User(){ Id = 3, FirstName = "Emcho", Username = "dara"},
-        //    }.AsQueryable();
+        [Fact]
+        public void User_Delete_WorkWell()
+        {
+            var data = new List<User>
+            {
+                new User(){ Id = 1, FirstName = "Misho", Username = "darabara"},
+                new User(){ Id = 2, FirstName = "Aleksi", Username = "darabarastochadura"},
+                 new User(){ Id = 3, FirstName = "Emcho", Username = "dara"},
+            }.AsQueryable();
 
-        //    var options = new DbContextOptionsBuilder<DreamJourneyDbContext>()
-        //        .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString())
-        //        .Options;
+            var options = new DbContextOptionsBuilder<DreamJourneyDbContext>()
+                .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString())
+                .Options;
 
-        //    var context = new DreamJourneyDbContext(options);
-        //    context.Users.AddRange(data);
-        //    context.SaveChanges();
+            var context = new DreamJourneyDbContext(options);
+            context.Users.AddRange(data);
+            context.SaveChanges();
+            
+            var usersService = new UsersService(context);
+            var dbSet  = context.Set<User>();
 
-        //    var usersService = new UsersService(context);
+            var expected = dbSet.Count() - 1;
+            usersService.Delete(1);
+            //var actualData = data.FirstOrDefault(x => x.Id == 1);
+            //User expectedData = null;
+            var actualCount = dbSet.Count();
 
-        //    var expected = data.Count() - 1;
-        //    usersService.Delete(1);
-        //    //var actualData = data.FirstOrDefault(x => x.Id == 1);
-        //    //User expectedData = null;
-        //    var actualCount = data.Count();
-                       
-        //    Assert.Equal(expected, actualCount);
-        //}
+            Assert.Equal(expected, actualCount);
+        }
 
     }
 }
