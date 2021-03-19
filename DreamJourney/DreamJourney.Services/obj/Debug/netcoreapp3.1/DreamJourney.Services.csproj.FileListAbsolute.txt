@@ -56,3 +56,16 @@ C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\Dr
 C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\DreamJourney.Services\obj\Debug\netcoreapp3.1\DreamJourney.Services.csproj.CopyComplete
 C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\DreamJourney.Services\obj\Debug\netcoreapp3.1\DreamJourney.Services.dll
 C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\DreamJourney.Services\obj\Debug\netcoreapp3.1\DreamJourney.Services.pdb
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\GHDJ\ITHub\DreamJourney\DreamJourney.Services\bin\Debug\netcoreapp3.1\DreamJourney.Services.deps.json
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\GHDJ\ITHub\DreamJourney\DreamJourney.Services\bin\Debug\netcoreapp3.1\DreamJourney.Services.dll
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\GHDJ\ITHub\DreamJourney\DreamJourney.Services\bin\Debug\netcoreapp3.1\DreamJourney.Services.pdb
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\GHDJ\ITHub\DreamJourney\DreamJourney.Services\bin\Debug\netcoreapp3.1\DreamJourney.Data.dll
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\GHDJ\ITHub\DreamJourney\DreamJourney.Services\bin\Debug\netcoreapp3.1\DreamJourney.Data.Models.dll
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\GHDJ\ITHub\DreamJourney\DreamJourney.Services\bin\Debug\netcoreapp3.1\DreamJourney.Data.Models.pdb
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\GHDJ\ITHub\DreamJourney\DreamJourney.Services\bin\Debug\netcoreapp3.1\DreamJourney.Data.pdb
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\GHDJ\ITHub\DreamJourney\DreamJourney.Services\obj\Debug\netcoreapp3.1\DreamJourney.Services.csprojAssemblyReference.cache
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\GHDJ\ITHub\DreamJourney\DreamJourney.Services\obj\Debug\netcoreapp3.1\DreamJourney.Services.AssemblyInfoInputs.cache
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\GHDJ\ITHub\DreamJourney\DreamJourney.Services\obj\Debug\netcoreapp3.1\DreamJourney.Services.AssemblyInfo.cs
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\GHDJ\ITHub\DreamJourney\DreamJourney.Services\obj\Debug\netcoreapp3.1\DreamJourney.Services.csproj.CopyComplete
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\GHDJ\ITHub\DreamJourney\DreamJourney.Services\obj\Debug\netcoreapp3.1\DreamJourney.Services.dll
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\GHDJ\ITHub\DreamJourney\DreamJourney.Services\obj\Debug\netcoreapp3.1\DreamJourney.Services.pdb

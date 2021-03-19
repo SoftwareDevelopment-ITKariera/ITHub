@@ -50,3 +50,14 @@ C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\Dr
 C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\DreamJourney.ViewModels\obj\Debug\netcoreapp3.1\DreamJourney.ViewModels.csproj.CopyComplete
 C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\DreamJourney.ViewModels\obj\Debug\netcoreapp3.1\DreamJourney.ViewModels.dll
 C:\Users\sheydi\Desktop\IT_Kariera\DreamJourney_Repository\ITHub\DreamJourney\DreamJourney.ViewModels\obj\Debug\netcoreapp3.1\DreamJourney.ViewModels.pdb
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\GHDJ\ITHub\DreamJourney\DreamJourney.ViewModels\bin\Debug\netcoreapp3.1\DreamJourney.ViewModels.deps.json
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\GHDJ\ITHub\DreamJourney\DreamJourney.ViewModels\bin\Debug\netcoreapp3.1\DreamJourney.ViewModels.dll
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\GHDJ\ITHub\DreamJourney\DreamJourney.ViewModels\bin\Debug\netcoreapp3.1\DreamJourney.ViewModels.pdb
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\GHDJ\ITHub\DreamJourney\DreamJourney.ViewModels\bin\Debug\netcoreapp3.1\DreamJourney.Data.Models.dll
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\GHDJ\ITHub\DreamJourney\DreamJourney.ViewModels\bin\Debug\netcoreapp3.1\DreamJourney.Data.Models.pdb
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\GHDJ\ITHub\DreamJourney\DreamJourney.ViewModels\obj\Debug\netcoreapp3.1\DreamJourney.ViewModels.csprojAssemblyReference.cache
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\GHDJ\ITHub\DreamJourney\DreamJourney.ViewModels\obj\Debug\netcoreapp3.1\DreamJourney.ViewModels.AssemblyInfoInputs.cache
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\GHDJ\ITHub\DreamJourney\DreamJourney.ViewModels\obj\Debug\netcoreapp3.1\DreamJourney.ViewModels.AssemblyInfo.cs
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\GHDJ\ITHub\DreamJourney\DreamJourney.ViewModels\obj\Debug\netcoreapp3.1\DreamJourney.ViewModels.csproj.CopyComplete
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\GHDJ\ITHub\DreamJourney\DreamJourney.ViewModels\obj\Debug\netcoreapp3.1\DreamJourney.ViewModels.dll
+D:\DOCUMENTS\School\IT kariera\modul7\9.Курсов-проект\GHDJ\ITHub\DreamJourney\DreamJourney.ViewModels\obj\Debug\netcoreapp3.1\DreamJourney.ViewModels.pdb

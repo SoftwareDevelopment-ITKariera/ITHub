@@ -39,19 +39,24 @@ namespace DreamJourney.Test.Service
             Assert.Equal(1, actualData.Count);
             Assert.Equal<Trip>(expectedData, actualData);
         }
-        [Fact]
-        public void GetById_WorkWell()
+
+        [Theory]
+        [InlineData(1)]
+        [InlineData(4)]
+        [InlineData(int.MaxValue)]
+        [InlineData(int.MinValue)]
+        public void GetById_WorkWell(int givenId)
         {
             var data = new List<Trip>
             {
-                new Trip(){Id=1, Title = "title", Destinations="Paris", UserId = 1 },
-                new Trip(){Id=2, Title = "title2", Destinations="Paris2",UserId = 2 },
-                new Trip(){Id=3, Title = "title3", Destinations="Paris3",UserId = 3 }
+            new Trip(){Id=1, Title = "title", Destinations="Paris", UserId = 1 },
+            new Trip(){Id=2, Title = "title2", Destinations="Paris2",UserId = 2 },
+            new Trip(){Id=3, Title = "title3", Destinations="Paris3",UserId = 3 }
             }.AsQueryable();
 
             var options = new DbContextOptionsBuilder<DreamJourneyDbContext>()
-                .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString())
-                .Options;
+            .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString())
+            .Options;
 
             var context = new DreamJourneyDbContext(options);
             context.Trips.AddRange(data);
@@ -59,12 +64,12 @@ namespace DreamJourney.Test.Service
 
             var tripService = new TripsService(context);
 
-            var expectedData = data.FirstOrDefault(x => x.Id ==1&&x.UserId==1);
-            var actualData = tripService.GetById(1,1);
-
+            var expectedData = data.FirstOrDefault(x => x.Id == givenId && x.UserId == givenId);
+            var actualData = tripService.GetById(givenId, givenId);
 
             Assert.Equal(expectedData, actualData);
         }
+
         [Fact]
         public void GetByIdWithUser_WorkWell()
         {

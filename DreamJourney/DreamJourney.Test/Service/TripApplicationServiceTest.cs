@@ -64,19 +64,23 @@ namespace DreamJourney.Test.Service
             Assert.Equal(expectedData, actualData);
         }
 
-        [Fact]
-        public void TripA_GetById_WorkWell()
+        [Theory]
+        [InlineData(1)]
+        [InlineData(4)]
+        [InlineData(int.MaxValue)]
+        [InlineData(int.MinValue)]
+        public void TripA_GetById_WorkWell(int givenId)
         {
             var data = new List<TripApplication>
             {
-                new TripApplication(){Id = 1, UserId=1, TripId=1, User = new User(){ Id = 2, FirstName = "Aleksi", Username = "darabarastochadura"} },
-                new TripApplication(){Id = 2, UserId=2, TripId=2 },
-                new TripApplication(){Id = 3, UserId=3, TripId=3 }
+            new TripApplication(){Id = 1, UserId=1, TripId=1, User = new User(){ Id = 2, FirstName = "Aleksi", Username = "darabarastochadura"} },
+            new TripApplication(){Id = 2, UserId=2, TripId=2 },
+            new TripApplication(){Id = 3, UserId=3, TripId=3 }
             }.AsQueryable();
 
             var options = new DbContextOptionsBuilder<DreamJourneyDbContext>()
-                .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString())
-                .Options;
+            .UseInMemoryDatabase(databaseName: Guid.NewGuid().ToString())
+            .Options;
 
             var context = new DreamJourneyDbContext(options);
             context.TripApplications.AddRange(data);
@@ -84,8 +88,8 @@ namespace DreamJourney.Test.Service
 
             var userService = new TripApplicationsService(context);
 
-            var expectedData = data.FirstOrDefault(x => x.Id == 2);
-            var actualData = userService.GetById(2);
+            var expectedData = data.FirstOrDefault(x => x.Id == givenId);
+            var actualData = userService.GetById(givenId);
 
             Assert.Equal(expectedData, actualData);
         }

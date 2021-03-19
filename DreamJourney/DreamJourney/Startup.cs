@@ -39,10 +39,9 @@ namespace DreamJourney
             services.AddScoped<ITripsService, TripsService>();
             services.AddScoped<ITripApplicationsService, TripApplicationsService>();
 
-            services.AddScoped<TripCreatorFilter>();
-
-
-
+            //services.AddScoped<TripCreatorFilter>();
+            //services.AddScoped<UserFilter>();
+            //services.AddScoped<TravellerFilter>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

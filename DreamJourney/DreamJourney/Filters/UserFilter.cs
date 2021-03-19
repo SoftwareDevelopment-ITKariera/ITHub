@@ -14,7 +14,7 @@ namespace DreamJourney.Filters
         {
             if (!context.HttpContext.Session.GetInt32("loggedUserId").HasValue)
             {
-                context.HttpContext.Response.Redirect("/Auth/Login");
+                context.HttpContext.Response.Redirect("/Users/Login");
                 context.Result = new EmptyResult();
             }
             base.OnActionExecuting(context);
