@@ -55,16 +55,6 @@ namespace DreamJourney.Test.Integration
             Assert.Equal(HttpStatusCode.OK, response.StatusCode);
         }
 
-        //[Fact]
-        //public async Task TripApplicationDetailsIsOK()
-        //{
-        //    var service = new WebApplicationFactory<Startup>();
-        //    var client = service.CreateClient();
-        //    var response = await client.GetAsync("/Views/TripApplications/Details");
-        //    var html = await response.Content.ReadAsStringAsync();
-        //    Assert.Equal(HttpStatusCode.OK, response.StatusCode);
-        //}
-
         [Fact]
         public async Task UsersLoginIsOK()
         {

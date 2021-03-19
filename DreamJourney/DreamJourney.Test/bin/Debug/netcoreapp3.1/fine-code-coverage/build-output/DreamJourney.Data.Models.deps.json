@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "DreamJourney.Data.Models/1.0.0": {
+        "runtime": {
+          "DreamJourney.Data.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DreamJourney.Data.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

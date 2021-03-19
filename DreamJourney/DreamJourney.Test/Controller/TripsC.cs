@@ -25,7 +25,6 @@ namespace DreamJourney.Test.Controller
             context.SaveChanges();
 
             var tripService = new TripsService(context);
-            var loginVM = new TripListViewModel();
 
             var tripAService = new TripApplicationsService(context);
 
