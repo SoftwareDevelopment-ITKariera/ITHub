@@ -9242,25 +9242,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\sheydi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\DreamJourney\\DreamJourney.Test\\DreamJourney.Test.csproj",
+      "projectUniqueName": "C:\\Users\\sheydi\\Desktop\\IT_Kariera\\DreamJourney_Repository\\ITHub\\DreamJourney\\DreamJourney.Test\\DreamJourney.Test.csproj",
       "projectName": "DreamJourney.Test",
-      "projectPath": "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\DreamJourney\\DreamJourney.Test\\DreamJourney.Test.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\DreamJourney\\DreamJourney.Test\\obj\\",
+      "projectPath": "C:\\Users\\sheydi\\Desktop\\IT_Kariera\\DreamJourney_Repository\\ITHub\\DreamJourney\\DreamJourney.Test\\DreamJourney.Test.csproj",
+      "packagesPath": "C:\\Users\\sheydi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sheydi\\Desktop\\IT_Kariera\\DreamJourney_Repository\\ITHub\\DreamJourney\\DreamJourney.Test\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\sheydi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -9271,21 +9266,22 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\DreamJourney\\DreamJourney.Data.Models\\DreamJourney.Data.Models.csproj": {
-              "projectPath": "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\DreamJourney\\DreamJourney.Data.Models\\DreamJourney.Data.Models.csproj"
+            "C:\\Users\\sheydi\\Desktop\\IT_Kariera\\DreamJourney_Repository\\ITHub\\DreamJourney\\DreamJourney.Data.Models\\DreamJourney.Data.Models.csproj": {
+              "projectPath": "C:\\Users\\sheydi\\Desktop\\IT_Kariera\\DreamJourney_Repository\\ITHub\\DreamJourney\\DreamJourney.Data.Models\\DreamJourney.Data.Models.csproj"
             },
-            "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\DreamJourney\\DreamJourney.Data\\DreamJourney.Data.csproj": {
-              "projectPath": "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\DreamJourney\\DreamJourney.Data\\DreamJourney.Data.csproj"
+            "C:\\Users\\sheydi\\Desktop\\IT_Kariera\\DreamJourney_Repository\\ITHub\\DreamJourney\\DreamJourney.Data\\DreamJourney.Data.csproj": {
+              "projectPath": "C:\\Users\\sheydi\\Desktop\\IT_Kariera\\DreamJourney_Repository\\ITHub\\DreamJourney\\DreamJourney.Data\\DreamJourney.Data.csproj"
             },
-            "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\DreamJourney\\DreamJourney.Services\\DreamJourney.Services.csproj": {
-              "projectPath": "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\DreamJourney\\DreamJourney.Services\\DreamJourney.Services.csproj"
+            "C:\\Users\\sheydi\\Desktop\\IT_Kariera\\DreamJourney_Repository\\ITHub\\DreamJourney\\DreamJourney.Services\\DreamJourney.Services.csproj": {
+              "projectPath": "C:\\Users\\sheydi\\Desktop\\IT_Kariera\\DreamJourney_Repository\\ITHub\\DreamJourney\\DreamJourney.Services\\DreamJourney.Services.csproj"
             },
-            "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\DreamJourney\\DreamJourney.ViewModels\\DreamJourney.ViewModels.csproj": {
-              "projectPath": "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\DreamJourney\\DreamJourney.ViewModels\\DreamJourney.ViewModels.csproj"
+            "C:\\Users\\sheydi\\Desktop\\IT_Kariera\\DreamJourney_Repository\\ITHub\\DreamJourney\\DreamJourney.ViewModels\\DreamJourney.ViewModels.csproj": {
+              "projectPath": "C:\\Users\\sheydi\\Desktop\\IT_Kariera\\DreamJourney_Repository\\ITHub\\DreamJourney\\DreamJourney.ViewModels\\DreamJourney.ViewModels.csproj"
             },
-            "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\DreamJourney\\DreamJourney\\DreamJourney.csproj": {
-              "projectPath": "C:\\Users\\User\\Documents\\School\\ИТ кариера\\Module 7\\9.Курсов-проект\\ITHubRepository\\ITHub\\DreamJourney\\DreamJourney\\DreamJourney.csproj"
+            "C:\\Users\\sheydi\\Desktop\\IT_Kariera\\DreamJourney_Repository\\ITHub\\DreamJourney\\DreamJourney\\DreamJourney.csproj": {
+              "projectPath": "C:\\Users\\sheydi\\Desktop\\IT_Kariera\\DreamJourney_Repository\\ITHub\\DreamJourney\\DreamJourney\\DreamJourney.csproj"
             }
           }
         }
@@ -9298,6 +9294,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Testing": {
             "target": "Package",
@@ -9342,7 +9339,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }
